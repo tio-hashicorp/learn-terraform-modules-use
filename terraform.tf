@@ -4,7 +4,7 @@
 terraform {
   /* use Terraform Cloud */
   cloud {
-    organization = "organization-name"
+    organization = "innovation-lab"
     workspaces {
       name = "learn-terraform-module-use"
     }
