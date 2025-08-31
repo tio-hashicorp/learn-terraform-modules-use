@@ -36,8 +36,8 @@ module "ec2_instances" {
 
   ami                    = "ami-0c5204531f799e0c6"
   instance_type          = "t2.micro"
-  vpc_security_group_ids = [module.vpc.default_security_group_id]
-  subnet_id              = module.vpc.public_subnets[0]
+  vpc_security_group_ids = [module.hbank-vpc.default_security_group_id]
+  subnet_id              = module.hbnk-vpc.public_subnets[0]
 
   tags = {
     Terraform   = "true"
