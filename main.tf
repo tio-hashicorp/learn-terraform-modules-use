@@ -11,9 +11,9 @@ provider "aws" {
   }
 }
 
-module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws"
-  version = "3.18.1"
+module "hbank-vpc" {
+  source  = "app.terraform.io/innovation-lab/hbank-vpc/aws"
+  version = "6.0.1"
 
   name = var.vpc_name
   cidr = var.vpc_cidr
