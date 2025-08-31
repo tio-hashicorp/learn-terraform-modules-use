@@ -1,6 +1,13 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
+variable "AWS_ACCESS_KEY_ID" {
+  description = "placeholder for AWS_ACCESS_KEY_ID"
+}
+variable "AWS_SECRET_ACCESS_KEY" {
+  description = "placeholder for AWS_SECRET_ACCESS_KEY"
+}
+
 variable "vpc_name" {
   description = "Name of VPC"
   type        = string
