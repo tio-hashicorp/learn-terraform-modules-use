@@ -2,14 +2,14 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  /* use Terraform Cloud */
+  /* use Terraform Cloud 
   cloud {
     organization = "innovation-lab"
     workspaces {
       name = "learn-terraform-module-use"
     }
   }
-
+*/
   required_providers {
     aws = {
       source  = "hashicorp/aws"
